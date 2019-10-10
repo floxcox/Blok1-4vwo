@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>I, 137'S Work</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:275,500,750" rel="stylesheet">
+    </head>
+    <body>
+<img class="logo-img" src="pf-pic.jpg" width="150" height="100" ALT="align box">
+
+<div class="top-right">
+    <button>
+    <a href="index.html">Click Here To Go Back</a>
+</button>
+</div>
+
+  <audio controls>
+   <source src="wonder.wav">
+   </audio>
+  <!--</br>
+  <audio controls>
+  
+    <source src=""
+  </audio>
+    </br>
+  <audio controls>
+    <source src=""
+  </audio>
+  </br>
+  <audio controls>
+    <source src=""
+  </audio> -->
+    
+    <video autoplay muted loop id="myVideo">
+  <source src="vhs-bg1.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+    
+    <div class="content"> <button id="myBtn" onclick="myFunction()">Pause Video</button> </div>
+
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause Video";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play Video";
+  }
+}
+</script>
+
+</body>

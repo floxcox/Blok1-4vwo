@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>I, 137</title>
+    <meta name="keywords" content=quality,music,muziek,ik,i,i137,137,ik137">
+    <meta name="description" content="Lees dit document als je meer van mij te weten wilt komen!">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:275,500,750" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    </head>
+  
+    <body>
+<img class="logo-img" src="pf-pic.jpg" width="150" height="100" ALT="align box">           
+  <!-- NAVBAR -->
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#backstory">Backstory</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#work">My Work</a>
+      <a href="more.html">More Of My Work</a>
+    </div>
+  </li>
+</ul> 
+<!-- END NAVBAR CODE -->
+
+                 <section id="home" class="aligncenter">
+        <h1 id="home" >I, 137</h1>
+        <h3> <!-- zet hiet tekst neer makker --> Who am I?
+</h3>
+        </br>
+<div class="aligncenter">
+<p> I, 137 is my artist name.
+</br> What my real name is I'm not going to tell.
+</br> What I am going to tell is that I'm a music producer and have been making music for roughly 1 year.
+</br> 
+
+</p>
+
+<div id="backstory" class="latin">
+  <h4>How did I come up with this name?</h4>
+<p>
+</br> I chose the number 137 in my artist name because my locker at school has the number 137 and I thought that it sounded kinda catchy.  
+</p></div>
+
+<div id="work">
+  <audio controls>
+   <source src="wonder.wav">
+   </audio>
+  </br>
+   <audio controls>
+   <source src="schreeuw.wav"
+   </audio>
+</div>
+
+<video autoplay muted loop id="myVideo">
+  <source src="vhs-bg2.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content"> <button id="myBtn" onclick="myFunction()">Pause Video</button> </div>
+
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause Video";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play Video";
+  }
+}
+</script>
+
+</body>
+</html>
