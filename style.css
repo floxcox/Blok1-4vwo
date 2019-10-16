@@ -6,6 +6,16 @@ body {
   line-height: 1.8em;
   color: #333;
 }
+
+.header-2nd-page {
+  
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  color: #333;
+	font-size: 1.8em; 
+	text-align: center;
+	
+}
+
 .logo-img{
     float: inherit;
     position: relative;
@@ -99,11 +109,11 @@ li.dropdown {
   display: block;
 }
 
-/* Top right text */
-.top-right {
+/* Top left text */
+.top-left {
   position: absolute;
   top: 8px;
-  right: 16px;
+  left: 16px;
 
 }  
 
